@@ -1,6 +1,11 @@
+server.port: 5601
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 
-server.name: kibana-node-1
+#elasticsearch.url: "http://elasticsearch:9200"
 
-elasticsearch.url: http://elasticsearch:9200
+## X-Pack security credentials
+#
 elasticsearch.username: elastic
 elasticsearch.password: changeme
